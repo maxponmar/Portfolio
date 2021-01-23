@@ -1,0 +1,139 @@
+.home {
+  height: 200vh; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: #f4f5db; }
+
+body {
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("/assets/fonts/Roboto-Bold.eot");
+  src: url("/assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Roboto-Bold.woff2") format("woff2"), url("/assets/fonts/Roboto-Bold.woff") format("woff"), url("/assets/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("/assets/fonts/Roboto-Regular.eot");
+  src: url("/assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Roboto-Regular.woff2") format("woff2"), url("/assets/fonts/Roboto-Regular.woff") format("woff") url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("/assets/fonts/Roboto-Medium.eot");
+  src: url("/assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Roboto-Medium.woff2") format("woff2"), url("/assets/fonts/Roboto-Medium.woff") format("woff"), url("/assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.7; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 2rem;
+  background-color: #eeeeee;
+  flex-wrap: wrap; }
+  .header__nav--checkbox {
+    display: none; }
+  .header__nav--button {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    z-index: 2000;
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    order: 2; }
+    @media only screen and (min-width: 710px) {
+      .header__nav--button {
+        height: 0;
+        display: none; } }
+  .header__nav--icon {
+    position: relative;
+    margin-top: 1.5rem; }
+    .header__nav--icon, .header__nav--icon::before, .header__nav--icon::after {
+      width: 2.5rem;
+      height: 2px;
+      background-color: #23120b;
+      display: inline-block; }
+    .header__nav--icon::before, .header__nav--icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s; }
+    .header__nav--icon::before {
+      top: -0.7rem; }
+    .header__nav--icon::after {
+      top: 0.7em; }
+  .header__nav--button:hover .header__nav--icon::before {
+    top: -0.9rem; }
+  .header__nav--button:hover .header__nav--icon::after {
+    top: 0.9rem; }
+  .header__nav--checkbox:checked + .header__nav--button .header__nav--icon {
+    background-color: transparent; }
+  .header__nav--checkbox:checked + .header__nav--button .header__nav--icon::before {
+    top: 0;
+    transform: rotate(135deg); }
+  .header__nav--checkbox:checked + .header__nav--button .header__nav--icon::after {
+    top: 0;
+    transform: rotate(-135deg); }
+  .header__nav--checkbox:checked ~ .header__nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-size: 2rem; }
+  .header__logo-link {
+    color: #23689b;
+    font-size: 1.1rem;
+    order: 1;
+    transition: all 0.2s; }
+    @media only screen and (max-width: 900px) {
+      .header__logo-link {
+        font-size: 0.8rem; } }
+  .header__nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: 1rem;
+    order: 3; }
+    @media only screen and (max-width: 710px) {
+      .header__nav-menu {
+        display: none; } }
+    .header__nav-menu--item {
+      margin: 0 1rem; }
+    .header__nav-menu--link {
+      font-size: 1.8rem;
+      transition: all 0.2s; }
+      .header__nav-menu--link:visited, .header__nav-menu--link:link {
+        color: #487e95; }
+      @media only screen and (max-width: 900px) {
+        .header__nav-menu--link {
+          font-size: 1.6rem; } }
+      .header__nav-menu--link:hover {
+        color: #719fb0; }
