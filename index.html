@@ -13,45 +13,65 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__logo-box">
-        <a href="#" class="header__logo-link">
-          <h1>Maximiliano Ponce Marquez</h1>
-        </a>
-      </div>
-      <input type="checkbox" class="header__nav--checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="header__nav--button">
-        <span class="header__nav--icon">&nbsp;</span>
-      </label>
-      <div class="header__nav-menu">
-        <ul class="header__nav-menu--list">
-          <li class="header__nav-menu--item">
-            <a href="#home" class="header__nav-menu--link">Home</a>
-          </li>
-        </ul>
-        <ul class="header__nav-menu--list">
-          <li class="header__nav-menu--item">
-            <a href="#about" class="header__nav-menu--link">About</a>
-          </li>
-        </ul>
-        <ul class="header__nav-menu--list">
-          <li class="header__nav-menu--item">
-            <a href="#skills" class="header__nav-menu--link">Skills</a>
-          </li>
-        </ul>
-        <ul class="header__nav-menu--list">
-          <li class="header__nav-menu--item">
-            <a href="#projects" class="header__nav-menu--link">Projects</a>
-          </li>
-        </ul>
-        <ul class="header__nav-menu--list">
-          <li class="header__nav-menu--item">
-            <a href="#contact" class="header__nav-menu--link">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <nav class="navigation">
+        <div class="navigation__logo-box">
+          <a href="#" class="navigation__logo-link">
+            <h1>Maximiliano Ponce Marquez</h1>
+          </a>
+        </div>
+        <input
+          type="checkbox"
+          class="navigation__nav--checkbox"
+          id="navi-toggle"
+        />
+        <label for="navi-toggle" class="navigation__nav--button">
+          <span class="navigation__nav--icon">&nbsp;</span>
+        </label>
+        <div class="navigation__nav-menu">
+          <ul class="navigation__nav-menu--list">
+            <li class="navigation__nav-menu--item">
+              <a href="#home" class="navigation__nav-menu--link">Home</a>
+            </li>
+          </ul>
+          <ul class="navigation__nav-menu--list">
+            <li class="navigation__nav-menu--item">
+              <a href="#about" class="navigation__nav-menu--link">About</a>
+            </li>
+          </ul>
+          <ul class="navigation__nav-menu--list">
+            <li class="navigation__nav-menu--item">
+              <a href="#skills" class="navigation__nav-menu--link">Skills</a>
+            </li>
+          </ul>
+          <ul class="navigation__nav-menu--list">
+            <li class="navigation__nav-menu--item">
+              <a href="#projects" class="navigation__nav-menu--link"
+                >Projects</a
+              >
+            </li>
+          </ul>
+          <ul class="navigation__nav-menu--list">
+            <li class="navigation__nav-menu--item">
+              <a href="#contact" class="navigation__nav-menu--link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
-      <section class="home"></section>
+    <main class="main">
+      <section class="home">
+        <div class="home__img">
+          <img src="assets/img/profile.png" alt="Maximiliano Ponce Marquez" />
+        </div>
+        <div class="home__presentation">
+          <h1 class="home__presentation--title">Maximiliano Ponce Marquez</h1>
+          <p class="home__presentation--description">Mechatronics Engineer</p>
+          <a href="#contact" class="button">Contact</a>
+        </div>
+      </section>
+      <section class="about">
+        <h2>Who am I?</h2>
+      </section>
     </main>
   </body>
 </html>
