@@ -1,0 +1,70 @@
+.projects {
+  &__container {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    @include respond-max(900px) {
+      grid-template-columns: 3rem 1fr 3rem;
+    }
+  }
+
+  &__cards-container {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 4rem;
+    @include respond-max(900px) {
+      gap: 1rem 2rem;
+    }
+    @include respond-max(710px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+    &--img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &--link {
+      display: inline-flex;
+      font-size: 1.5rem;
+      color: $color-primary;
+      border-radius: 0.25rem;
+      padding: 0.25rem;
+      margin-bottom: 2rem;
+    }
+
+    &--icon {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    &--title {
+      font-size: 1.8rem;
+      color: $color-white;
+    }
+
+    &--data {
+      position: absolute;
+      bottom: -100%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 80, 134, 0.7);
+      transition: 0.3s;
+    }
+
+    &:hover &--data {
+      bottom: 0;
+    }
+  }
+}
