@@ -4,6 +4,7 @@
   top: 0;
   left: 0;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  z-index: 1000;
 }
 
 .navigation {
@@ -91,6 +92,8 @@
   }
 
   &__logo-link {
+    align-self: center;
+    justify-self: center;
     color: $color-primary;
     font-size: 1.3rem;
     order: 1;
