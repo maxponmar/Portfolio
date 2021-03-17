@@ -22,12 +22,12 @@
     background-color: #e4e4e4;
 
     @include respond-max(420px) {
-      width: 270px;
-      height: 350px;
+      width: 30rem;
+      height: 35rem;
     }
 
     & > img {
-      width: 30rem;
+      width: 25rem;
       @include respond-max(420px) {
         width: 190px;
       }

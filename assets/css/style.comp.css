@@ -140,10 +140,10 @@ a {
     background-color: #e4e4e4; }
     @media only screen and (max-width: 420px) {
       .contact__card {
-        width: 270px;
-        height: 350px; } }
+        width: 30rem;
+        height: 35rem; } }
     .contact__card > img {
-      width: 30rem; }
+      width: 25rem; }
       @media only screen and (max-width: 420px) {
         .contact__card > img {
           width: 190px; } }
