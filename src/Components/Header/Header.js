@@ -1,5 +1,5 @@
 import './Header.scss'
-import HeaderLink from '../HeaderLink/HeaderLink'
+import HeaderLink from './HeaderLink/HeaderLink'
 
 function Header() {
   const sections = [
