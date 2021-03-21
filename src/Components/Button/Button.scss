@@ -1,0 +1,23 @@
+@import '/src/Sass/abstracts.scss';
+
+.button {
+  background-color: $color-primary;
+  color: $color-white;
+  font-size: 2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  max-width: 25rem;
+
+  & > a {
+    color: $color-white;
+  }
+
+  &:hover {
+    background-color: $color-primary-light;
+    box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01) translateY(-1px);
+  }
+}

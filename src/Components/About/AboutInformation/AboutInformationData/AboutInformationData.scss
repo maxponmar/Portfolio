@@ -1,0 +1,15 @@
+.about{
+  &__information {
+    &--icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-right: 2rem;
+    }
+
+    &--data {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+  }
+}

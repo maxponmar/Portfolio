@@ -1,0 +1,27 @@
+@import '/src/Sass/abstracts.scss';
+
+.about {
+  &__container {
+    display: grid;
+    column-gap: 10rem;
+    grid-template-columns: 10rem 1fr 1fr 10rem;
+    grid-template-rows: 0.5fr 1.5fr;
+    align-items: center;
+
+    @include respond-max(1350px) {
+      column-gap: 5rem;
+    }
+    @include respond-max(1184px) {
+      grid-template-columns: 7rem 1fr 1fr 7rem;
+    }
+    @include respond-max(1046px) {
+      grid-template-columns: 0.5rem 1fr 1fr 0.5rem;
+      column-gap: 2.5rem;
+    }
+    @include respond-max(900px) {
+      grid-template-columns: 1px 1fr 1px;
+      grid-template-rows: auto auto 1fr;
+      column-gap: 10px;
+    }
+  }
+}

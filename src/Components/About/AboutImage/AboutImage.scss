@@ -1,0 +1,17 @@
+@import '/src/Sass/abstracts.scss';
+
+.about {
+  &__img {
+    min-width: 25rem;
+    max-width: 60rem;
+    width: 40vw;
+    border-radius: 5px;
+    margin: 0 auto;
+    grid-column: 2 /4;
+    grid-row: 2 / 3;
+    @include respond-max(900px) {
+      grid-row: 3 / 4;
+      grid-column: 2 / 3;
+    }
+  }
+}

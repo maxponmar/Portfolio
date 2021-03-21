@@ -1,0 +1,33 @@
+@import '/src/Sass/abstracts.scss';
+
+.home {
+  &__presentation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+      font-size: 4rem;
+      font-weight: 700;
+      color: $color-primary;
+
+      @include respond-max(590px) {
+        font-size: 3rem;
+      }
+      @include respond-max(430px) {
+        font-size: 2rem;
+      }
+    }
+
+    &--description {
+      font-size: 2rem;
+      @include respond-max(590px) {
+        font-size: 1.8rem;
+      }
+      @include respond-max(430px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import '/src/Sass/abstracts.scss';
+
+.about{
+  &__information {
+    text-align: left;
+    justify-self: left;
+    font-size: 1.8rem;
+
+    @include respond-max(1184px) {
+      font-size: 1.5rem;
+    }
+
+    @include respond-max(900px) {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+      text-align: center;
+      justify-self: center;
+    }
+
+    &--link {
+      width: 2.5rem;
+      height: 2.5rem;
+      z-index: 10;
+      background-color: transparent;
+      cursor: pointer;
+    }    
+  }
+}

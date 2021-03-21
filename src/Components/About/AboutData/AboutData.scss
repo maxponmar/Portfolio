@@ -1,0 +1,21 @@
+@import '/src/Sass/abstracts.scss';
+
+.about {
+  &__data {
+    text-align: right;
+    grid-column: 2 / 3;
+    justify-self: right;
+    @include respond-max(900px) {
+      grid-row: 1 / 2;
+    }
+
+    &--description {
+      font-size: 1.8rem;
+      @include respond-max(900px) {
+        justify-self: center;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
