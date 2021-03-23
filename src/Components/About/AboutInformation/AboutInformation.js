@@ -6,12 +6,12 @@ import UserIcon from '../../../Assets/SVG/user.svg';
 import EnvelopeIcon from '../../../Assets/SVG/envelop.svg';
 import GithubIcon from '../../../Assets/SVG/github.svg';
 
-const AboutInformation = () => {
+const AboutInformation = ({name, email, github}) => {
 
   const aboutData = [
-    { icon: UserIcon, data: 'Maximiliano Ponce Marquez' },
-    { icon: EnvelopeIcon, data: 'maxponce.marquez@gmail.com'},
-    { icon: GithubIcon, data: 'maxponmar'}
+    { icon: UserIcon, data: name },
+    { icon: EnvelopeIcon, data: email},
+    { icon: GithubIcon, data: github}
   ]  
     
   return (

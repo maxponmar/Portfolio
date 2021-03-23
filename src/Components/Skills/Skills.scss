@@ -1,0 +1,78 @@
+@import '/src/Sass/abstracts.scss';
+
+.skills {
+  &__container {
+    display: grid;
+    grid-template-columns: 4rem 1fr 4rem;
+    column-gap: 1rem;
+    align-items: center;
+    @include respond-max(850px) {
+      grid-template-columns: 1px 1fr 1px;
+      column-gap: 1rem;
+    }
+  }
+}
+
+// BARS
+
+.bar {
+  // FRONTEND
+  &-html {
+    width: 95%;
+  }
+  &-css {
+    width: 95%;
+  }
+  &-js {
+    width: 95%;
+  }
+  &-angular {
+    width: 90%;
+  }
+  &-react {
+    width: 70%;
+  }
+  &-vue {
+    width: 50%;
+  }
+
+  // BACKEND
+  &-csharp {
+    width: 95%;
+  }
+  &-python {
+    width: 95%;
+  }
+  &-java {
+    width: 80%;
+  }
+  &-php {
+    width: 40%;
+  }
+  &-nodejs {
+    width: 70%;
+  }
+  &-asp {
+    width: 90%;
+  }
+  &-django {
+    width: 60%;
+  }
+  &-laravel {
+    width: 10%;
+  }
+
+  // DATABASES
+  &-sqlserver {
+    width: 85%;
+  }
+  &-mysql {
+    width: 85%;
+  }
+  &-postgresql {
+    width: 80%;
+  }
+  &-mongodb {
+    width: 80%;
+  }
+}

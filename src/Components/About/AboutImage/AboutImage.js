@@ -1,9 +1,8 @@
 import './AboutImage.scss';
-import AboutImageSrc from '../../../Assets/Images/description.jpg';
 
-const AboutImage = () => {
+const AboutImage = ({image, name}) => {
   return (
-    <img src={AboutImageSrc} alt="Maximiliano Ponce Marquez" className="about__img" />
+    <img src={image} alt={name} className="about__img" />
   );
 }
 

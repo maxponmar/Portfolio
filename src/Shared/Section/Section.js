@@ -12,9 +12,10 @@ const SectionTitle = (title, subtitle) => {
   return (<div></div>);
 }
 
-const Section = (props) => {
+const Section = (props) => {  
+  const name = props.title.toLowerCase();
   return (
-    <section className={props.name + " section"} id={props.name}>
+    <section className={name + " section"} id={name}>
       {SectionTitle(props.title, props.subtitle)}
       {props.children}
     </section>

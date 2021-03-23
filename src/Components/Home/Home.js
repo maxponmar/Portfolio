@@ -4,11 +4,11 @@ import Section from '../../Shared/Section/Section';
 import HomeImage from './HomeImage/HomeImage';
 import HomePresentation from './HomePresentation/HomePresentation';
 
-function Home() {
+const Home = ({name, image, description}) => {
   return (
-    <Section name="home">
-      <HomeImage />
-      <HomePresentation />
+    <Section title="home">
+      <HomeImage name={name} image={image}/>
+      <HomePresentation name={name} description={description}/>
     </Section>
   )
 }

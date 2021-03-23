@@ -1,11 +1,9 @@
 import './HomeImage.scss';
 
-import profileImage from '../../../Assets/Images/profile.png';
-
-const HomeImage = () => {
+const HomeImage = ({image, name}) => {
   return (
     <div className="home__img">
-        <img src={profileImage} alt="Maximiliano Ponce Marquez" />
+        <img src={image} alt={name} />
     </div>
   );
 }

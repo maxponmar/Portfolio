@@ -1,7 +1,7 @@
 import './Header.scss'
 import HeaderLink from './HeaderLink/HeaderLink'
 
-function Header() {
+function Header({title}) {
   const sections = [
     { title: "Home", link: '#home' },
     { title: "About", link: '#about' },
@@ -15,7 +15,7 @@ function Header() {
       <nav className="navigation">
         <div className="navigation__logo-box">
           <a href="#" className="navigation__logo-link">
-            <h1>Maximiliano Ponce Marquez</h1>
+            <h1>{title}</h1>
           </a>
         </div>
         <input type="checkbox" className="navigation__nav--checkbox" id="navi-toggle" />

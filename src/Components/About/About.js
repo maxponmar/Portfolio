@@ -5,13 +5,13 @@ import AboutData from './AboutData/AboutData';
 import AboutImage from './AboutImage/AboutImage';
 import AboutInformation from './AboutInformation/AboutInformation';
 
-const About = () => {
+const About = ({profile}) => {
   return (
-    <Section name='about' title='About Me' subtitle='My Intro'>
+    <Section title='About' subtitle='My Intro'>
       <div className="about__container">
-        <AboutData />
-        <AboutImage/>
-        <AboutInformation />
+        <AboutData aboutMe={profile.aboutMe} />
+        <AboutImage image={profile.aboutImage} name={profile.name} />
+        <AboutInformation name={profile.name} email={profile.email} github={profile.github} />
       </div>
     </Section>
   )

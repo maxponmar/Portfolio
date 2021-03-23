@@ -1,0 +1,35 @@
+@import '/src/Sass/abstracts.scss';
+
+.skills {
+  &__category {
+    grid-column: 2 / 3;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 4rem;
+    transition: all 0.2s;
+
+    @include respond-max(850px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem 1rem;
+    }
+
+    @include respond-max(550px) {
+      grid-template-columns: 1fr;
+      gap: 3rem 0;
+    }
+
+    &--title {
+      grid-column: 1 / 4;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+
+      @include respond-max(850px) {
+        grid-column: 1 / 3;        
+      }
+      @include respond-max(550px) {
+        grid-column: 1 / 2;        
+      }
+    }
+  }
+}

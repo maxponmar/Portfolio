@@ -1,0 +1,24 @@
+@import '/src/Sass/abstracts.scss';
+
+.projects {
+  &__container {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    @include respond-max(900px) {
+      grid-template-columns: 3rem 1fr 3rem;
+    }
+  }
+
+  &__cards-container {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 4rem;
+    @include respond-max(900px) {
+      gap: 1rem 2rem;
+    }
+    @include respond-max(710px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
