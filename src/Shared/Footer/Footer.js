@@ -7,7 +7,7 @@ const Footer = ({name}) => {
   return (
     <footer class="footer">
     <div class="footer__container">
-      <h2 class="footer--title">{name}}</h2>
+      <h2 class="footer--title">{name}</h2>
       <p class="footer--description">This is my personal website, welcome.</p>
       <div class="footer--social">
         <a href="https://github.com/maxponmar" class="footer--link">
