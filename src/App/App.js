@@ -8,13 +8,11 @@ import Contact from '../Components/Contact/Contact';
 
 import { profile } from "../Data/userData.js";
 import Footer from '../Shared/Footer/Footer';
-import UserContextProvider from '../Data/UserContext';
 
 function App() {
   return (
     <div className="App">
-      <UserContextProvider>
-        <Header title={profile.name} />
+      <Header title={profile.name} />
         <main className="main">
           <Home name={profile.name} description={profile.description} image={profile.image} />
           <About profile={profile} />
@@ -23,7 +21,6 @@ function App() {
           <Contact profile={profile} />
         </main>
         <Footer name={profile.name} />
-      </UserContextProvider>
     </div>
   );
 }
