@@ -1,5 +1,5 @@
-import profileImg from '../Assets/Images/profile.png';
-import aboutImg from '../Assets/Images/description.jpg';
+import profileImg from '../Assets/Images/profile.webp';
+import aboutImg from '../Assets/Images/description.webp';
 
 import htmlIcon from "../Assets/SVG/html5.svg";
 import cssIcon from "../Assets/SVG/css3.svg";
@@ -21,10 +21,10 @@ import mysqlIcon from "../Assets/SVG/mysql.svg";
 import postgresqlIcon from "../Assets/SVG/postgresql.svg";
 import mongodbIcon from "../Assets/SVG/mongodb.svg";
 
-import mecatronicaImg from '../Assets/Images/MecatronicaFromScratch.png';
-import numericalMethodsImg from '../Assets/Images/NumericalMethods.png';
-import scientificMoldingImg from '../Assets/Images/ScientificMolding.png';
-import booksApiImg from '../Assets/Images/BooksAPI.png';
+import mecatronicaImg from '../Assets/Images/MecatronicaFromScratch.webp';
+import numericalMethodsImg from '../Assets/Images/NumericalMethods.webp';
+import scientificMoldingImg from '../Assets/Images/ScientificMolding.webp';
+import booksApiImg from '../Assets/Images/BooksAPI.webp';
 
 export const profile = {
   name: 'Maximiliano Ponce Marquez',

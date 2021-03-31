@@ -3,7 +3,7 @@ import HeaderLink from './HeaderLink/HeaderLink'
 
 function Header({title}) {
   const sections = [
-    { title: "Home", link: '#home' },
+    { title: "Home", link: '#' },
     { title: "About", link: '#about' },
     { title: "Skills", link: '#skills' },
     { title: "Projects", link: '#projects' },

@@ -28,7 +28,8 @@
 
     &--title {
       font-size: 1.8rem;
-      color: $color-white;
+      font-weight: 700;
+      color: #000;
     }
 
     &--data {
@@ -40,7 +41,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgba(0, 80, 134, 0.7);
+      background: rgba(0, 80, 134, 0.5);
       transition: 0.3s;
     }
 
