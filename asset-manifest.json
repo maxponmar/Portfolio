@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ae79495.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0385a8a0.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0385a8a0.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9081e7fa.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f612096e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f612096e.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/js/2.b8251996.chunk.js": "/Portfolio/static/js/2.b8251996.chunk.js",
     "static/js/2.b8251996.chunk.js.map": "/Portfolio/static/js/2.b8251996.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.8ae79495.chunk.css.map": "/Portfolio/static/css/main.8ae79495.chunk.css.map",
+    "static/css/main.9081e7fa.chunk.css.map": "/Portfolio/static/css/main.9081e7fa.chunk.css.map",
     "static/js/2.b8251996.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b8251996.chunk.js.LICENSE.txt",
-    "static/media/BooksAPI.c8eb2aff.png": "/Portfolio/static/media/BooksAPI.c8eb2aff.png",
-    "static/media/MecatronicaFromScratch.cce03ca0.png": "/Portfolio/static/media/MecatronicaFromScratch.cce03ca0.png",
-    "static/media/NumericalMethods.955b55f7.png": "/Portfolio/static/media/NumericalMethods.955b55f7.png",
+    "static/media/BooksAPI.ae3f4c13.webp": "/Portfolio/static/media/BooksAPI.ae3f4c13.webp",
+    "static/media/MecatronicaFromScratch.3af0d74e.webp": "/Portfolio/static/media/MecatronicaFromScratch.3af0d74e.webp",
+    "static/media/NumericalMethods.c8e5fa48.webp": "/Portfolio/static/media/NumericalMethods.c8e5fa48.webp",
     "static/media/typography.scss": "/Portfolio/static/media/Poppins-Regular.6c52b9ac.woff",
-    "static/media/ScientificMolding.71e2f37d.png": "/Portfolio/static/media/ScientificMolding.71e2f37d.png",
+    "static/media/ScientificMolding.c82ddaba.webp": "/Portfolio/static/media/ScientificMolding.c82ddaba.webp",
     "static/media/angular.299e817a.svg": "/Portfolio/static/media/angular.299e817a.svg",
     "static/media/css3.87877734.svg": "/Portfolio/static/media/css3.87877734.svg",
-    "static/media/description.841a644d.jpg": "/Portfolio/static/media/description.841a644d.jpg",
+    "static/media/description.7b3ec74c.webp": "/Portfolio/static/media/description.7b3ec74c.webp",
     "static/media/django.b18d181c.svg": "/Portfolio/static/media/django.b18d181c.svg",
     "static/media/envelop.77e89fc7.svg": "/Portfolio/static/media/envelop.77e89fc7.svg",
     "static/media/github.a97474da.svg": "/Portfolio/static/media/github.a97474da.svg",
@@ -31,7 +31,7 @@
     "static/media/node-dot-js.187c948b.svg": "/Portfolio/static/media/node-dot-js.187c948b.svg",
     "static/media/php.fb046a2a.svg": "/Portfolio/static/media/php.fb046a2a.svg",
     "static/media/postgresql.74bdbade.svg": "/Portfolio/static/media/postgresql.74bdbade.svg",
-    "static/media/profile.714733a9.png": "/Portfolio/static/media/profile.714733a9.png",
+    "static/media/profile.807bfbd6.webp": "/Portfolio/static/media/profile.807bfbd6.webp",
     "static/media/python.4da54d06.svg": "/Portfolio/static/media/python.4da54d06.svg",
     "static/media/react.2c3ab836.svg": "/Portfolio/static/media/react.2c3ab836.svg",
     "static/media/user.5438090f.svg": "/Portfolio/static/media/user.5438090f.svg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb6781d5.js",
     "static/js/2.b8251996.chunk.js",
-    "static/css/main.8ae79495.chunk.css",
-    "static/js/main.0385a8a0.chunk.js"
+    "static/css/main.9081e7fa.chunk.css",
+    "static/js/main.f612096e.chunk.js"
   ]
 }
