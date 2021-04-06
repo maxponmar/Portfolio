@@ -7,7 +7,7 @@ const SkillsCategory = ({title, skills}) => {
           <h3 className="skills__category--title">{title}</h3>
           {
             skills.map(skill => {
-              return <SkillsData skill={skill}/>
+              return <SkillsData key={skill.name} skill={skill}/>
             })
           }
         </div>

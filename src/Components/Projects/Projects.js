@@ -7,11 +7,12 @@ import { projects } from "../../Data/userData";
 const Projects = () => {
   return (
     <Section title='Projects' subtitle='My Portfolio'>
-      <div class="projects__container">
-        <div class="projects__cards-container">
+      <div className="projects__container">
+        <div className="projects__cards-container">
           {
             projects.map(project => {
               return <ProjectCard
+                key={project.title}
                 title={project.title}
                 link={project.link}
                 image={project.image} />
