@@ -4,7 +4,7 @@
   &__category {
     grid-column: 2 / 3;
     display: grid;
-    gap: 1rem;
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 4rem;
     transition: all 0.2s;

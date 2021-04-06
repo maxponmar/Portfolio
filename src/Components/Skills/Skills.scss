@@ -3,7 +3,7 @@
 .skills {
   &__container {
     display: grid;
-    grid-template-columns: 4rem 1fr 4rem;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
     column-gap: 1rem;
     align-items: center;
     @include respond-max(850px) {
