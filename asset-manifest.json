@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9081e7fa.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f612096e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f612096e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f51e9704.chunk.css",
+    "main.js": "/Portfolio/static/js/main.da52d7e7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.da52d7e7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
-    "static/js/2.b8251996.chunk.js": "/Portfolio/static/js/2.b8251996.chunk.js",
-    "static/js/2.b8251996.chunk.js.map": "/Portfolio/static/js/2.b8251996.chunk.js.map",
+    "static/js/2.d8be64f0.chunk.js": "/Portfolio/static/js/2.d8be64f0.chunk.js",
+    "static/js/2.d8be64f0.chunk.js.map": "/Portfolio/static/js/2.d8be64f0.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.9081e7fa.chunk.css.map": "/Portfolio/static/css/main.9081e7fa.chunk.css.map",
-    "static/js/2.b8251996.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b8251996.chunk.js.LICENSE.txt",
+    "static/css/main.f51e9704.chunk.css.map": "/Portfolio/static/css/main.f51e9704.chunk.css.map",
+    "static/js/2.d8be64f0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d8be64f0.chunk.js.LICENSE.txt",
     "static/media/BooksAPI.ae3f4c13.webp": "/Portfolio/static/media/BooksAPI.ae3f4c13.webp",
     "static/media/MecatronicaFromScratch.3af0d74e.webp": "/Portfolio/static/media/MecatronicaFromScratch.3af0d74e.webp",
     "static/media/NumericalMethods.c8e5fa48.webp": "/Portfolio/static/media/NumericalMethods.c8e5fa48.webp",
@@ -21,6 +21,7 @@
     "static/media/django.b18d181c.svg": "/Portfolio/static/media/django.b18d181c.svg",
     "static/media/envelop.77e89fc7.svg": "/Portfolio/static/media/envelop.77e89fc7.svg",
     "static/media/github.a97474da.svg": "/Portfolio/static/media/github.a97474da.svg",
+    "static/media/half-moon.4946e6c2.svg": "/Portfolio/static/media/half-moon.4946e6c2.svg",
     "static/media/html5.62320a76.svg": "/Portfolio/static/media/html5.62320a76.svg",
     "static/media/java.145e5764.svg": "/Portfolio/static/media/java.145e5764.svg",
     "static/media/javascript.f0490f94.svg": "/Portfolio/static/media/javascript.f0490f94.svg",
@@ -34,13 +35,14 @@
     "static/media/profile.807bfbd6.webp": "/Portfolio/static/media/profile.807bfbd6.webp",
     "static/media/python.4da54d06.svg": "/Portfolio/static/media/python.4da54d06.svg",
     "static/media/react.2c3ab836.svg": "/Portfolio/static/media/react.2c3ab836.svg",
+    "static/media/sunny.137e9c17.svg": "/Portfolio/static/media/sunny.137e9c17.svg",
     "static/media/user.5438090f.svg": "/Portfolio/static/media/user.5438090f.svg",
     "static/media/vue-dot-js.84b916a5.svg": "/Portfolio/static/media/vue-dot-js.84b916a5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb6781d5.js",
-    "static/js/2.b8251996.chunk.js",
-    "static/css/main.9081e7fa.chunk.css",
-    "static/js/main.f612096e.chunk.js"
+    "static/js/2.d8be64f0.chunk.js",
+    "static/css/main.f51e9704.chunk.css",
+    "static/js/main.da52d7e7.chunk.js"
   ]
 }
