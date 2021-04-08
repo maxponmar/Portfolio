@@ -5,6 +5,7 @@
     text-align: left;
     justify-self: left;
     font-size: 1.8rem;
+    color: var(--color-black);
 
     @include respond-max(1184px) {
       font-size: 1.5rem;
@@ -23,6 +24,6 @@
       z-index: 10;
       background-color: transparent;
       cursor: pointer;
-    }    
+    }
   }
 }

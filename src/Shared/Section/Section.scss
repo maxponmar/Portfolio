@@ -1,5 +1,3 @@
-@import '/src/Sass/abstracts.scss';
-
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -7,7 +5,7 @@
   &__title {
     position: relative;
     font-size: 2.6rem;
-    color: $color-primary;
+    color: var(--color-primary);
     margin-top: 1rem;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -21,7 +19,7 @@
       right: 0;
       margin: auto;
       top: 4rem;
-      background-color: $color-primary;
+      background-color: var(--color-primary);
     }
   }
 
@@ -29,9 +27,9 @@
     display: block;
     font-size: 1.5rem;
     font-weight: 400;
-    color: #000;
+    color: var(--color-black);
     text-align: center;
-    font-weight: var(--font-bold);
+    font-weight: 500;
     margin-top: 1rem;
     margin-bottom: 0.25rem;
   }

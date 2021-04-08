@@ -1,9 +1,12 @@
+
 .about{
   &__information {
     &--icon {
       width: 2.5rem;
       height: 2.5rem;
       margin-right: 2rem;
+      background-color: var(--color-icons);
+      border-radius: 50%;
     }
 
     &--data {

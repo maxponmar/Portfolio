@@ -12,7 +12,7 @@
 .navigation {
   display: flex;
   padding: 0.5rem 2rem;
-  background-color: $color-grey-light;
+  background-color: var(--color-grey-light);
   flex-wrap: wrap;
 
   &__nav {
@@ -43,7 +43,7 @@
       &::after {
         width: 2.5rem;
         height: 2px;
-        background-color: $color-black;
+        background-color: var(--color-black);
         display: inline-block;
       }
 
@@ -96,13 +96,13 @@
   &__logo-link {
     align-self: center;
     justify-self: center;
-    color: $color-primary;
+    color: var(--color-primary);
     font-size: 1.3rem;
     order: 1;
 
     transition: all 0.2s;
     @include respond-max(360px) {
-      font-size: 1rem;      
+      font-size: 1rem;
     }
   }
 
@@ -116,6 +116,6 @@
 
     @include respond-max(710px) {
       display: none;
-    }    
+    }
   }
 }

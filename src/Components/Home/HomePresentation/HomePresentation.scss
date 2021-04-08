@@ -10,7 +10,7 @@
     &--title {
       font-size: 4rem;
       font-weight: 700;
-      color: $color-primary;
+      color: var(--color-primary);
 
       @include respond-max(590px) {
         font-size: 3rem;
@@ -22,6 +22,7 @@
 
     &--description {
       font-size: 2rem;
+      color: var(--color-black);
       @include respond-max(590px) {
         font-size: 1.8rem;
       }

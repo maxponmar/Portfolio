@@ -1,13 +1,19 @@
-$color-primary: #19456b;
-$color-primary-light: #487e95;
+// $color-primary: #19456b;
+// // $color-primary: #798777;
 
-$color-secondary: #719fb0;
+// $color-primary-light: #487e95;
+// $color-secondary: #719fb0;
 
-$color-white: #eeeeee;
-$color-black: #23120b;
+// $color-white: #eeeeee;
+// // $color-white: #010101;
 
-$color-grey: #d9dab0;
-$color-grey-light: #e2e2e2;
+// $color-black: #23120b;
+// // $color-black: #bbe1fa;
+
+// $color-grey: #d9dab0;
+
+// $color-grey-light: #e2e2e2;
+// // $color-grey-light: #222;
 
 @mixin respond-max($breakpoint) {
   @media only screen and (max-width: $breakpoint) {

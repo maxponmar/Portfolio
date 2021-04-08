@@ -1,8 +1,8 @@
 @import "/src/Sass/abstracts.scss";
 
 .footer {
-  background-color: $color-primary;
-  color: $color-white;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   text-align: center;
 
   &--title {
@@ -20,8 +20,8 @@
 
   &--link {
     display: inline-flex;
-    background-color: $color-primary;
-    color: $color-primary-light;
+    background-color: var(--color-primary);
+    color: var(--color-primary-light);
     font-size: 1.1rem;
     border-radius: 50%;
     padding: 0.4rem;
@@ -29,8 +29,8 @@
     transition: 0.3s;
 
     &:hover {
-      background-color: $color-primary-light;
-      color: $color-primary;
+      background-color: var(--color-primary-light);
+      color: var(--color-primary);
     }
   }
 
@@ -40,6 +40,6 @@
   }
   &--copy {
     font-size: 1.3rem;
-    color: $color-white;
+    color: var(--color-white);
   }
 }

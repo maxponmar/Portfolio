@@ -5,6 +5,7 @@
     text-align: right;
     grid-column: 2 / 3;
     justify-self: right;
+    color: var(--color-black);
     @include respond-max(900px) {
       grid-row: 1 / 2;
     }
