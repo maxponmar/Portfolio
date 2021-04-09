@@ -7,4 +7,4 @@ https://maxponmar.github.io/Portfolio/
 #Preview Images:
 
 ## Dark Theme
-<img src="https://github.com/maxponmar/Portfolio/blob/main/PreviewImages/DarkTheme.png?raw=true" alt="Home view" width="800"/>
+<img src="https://github.com/maxponmar/Portfolio/blob/master/PreviewImages/DarkTheme.png?raw=true" alt="Dark Theme View" width="800"/>
