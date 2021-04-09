@@ -11,6 +11,7 @@
     text-align: center;
     transition: all 0.25s;
     background-color: var(--color-grey-light);
+    color: var(--color-black);
 
     @include respond-max(420px) {
       width: 30rem;

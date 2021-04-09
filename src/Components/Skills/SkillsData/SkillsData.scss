@@ -22,12 +22,14 @@
       text-transform: uppercase;
       font-weight: 700;
       font-size: 1.3rem;
+      color: var(--color-black);
     }
     &--percentage {
       font-weight: 700;
       font-size: 1.3rem;
       margin-left: auto;
       margin-right: 2rem;
+      color: var(--color-black);
     }
     &--bar {
       position: absolute;

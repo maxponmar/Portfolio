@@ -1,5 +1,3 @@
-@import './abstracts.scss';
-
 *,
 *::after,
 *::before {
@@ -15,8 +13,7 @@ html {
 }
 
 body {
-  box-sizing: border-box;
-  max-width: 1305px;
+  box-sizing: border-box;  
   margin: auto;
 }
 

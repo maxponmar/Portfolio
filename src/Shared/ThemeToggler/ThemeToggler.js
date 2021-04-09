@@ -14,7 +14,7 @@ const setDarkTheme = function () {
   root.style.setProperty("--color-white", "#010101");
   root.style.setProperty("--color-black", "#bbe1fa");
   root.style.setProperty("--color-grey-light", "#222");
-  root.style.setProperty("--color-icons", "#010101");
+  root.style.setProperty("--color-icons", "#bbe1fa");
   moonIcon.classList.remove("hidden");
   sunIcon.classList.add("hidden");
 };
@@ -24,7 +24,7 @@ const setLightTheme = function () {
   root.style.setProperty("--color-white", "#eee");
   root.style.setProperty("--color-black", "#23120b");
   root.style.setProperty("--color-grey-light", "#e2e2e2");
-  root.style.setProperty("--color-icons", "#eee");
+  root.style.setProperty("--color-icons", "#000");
   moonIcon.classList.add("hidden");
   sunIcon.classList.remove("hidden");
 };
