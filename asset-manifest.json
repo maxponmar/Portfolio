@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b12dfc8b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.09ae6e31.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.09ae6e31.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.33ba9ccf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.33ba9ccf.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/js/2.24b4c3cb.chunk.js": "/Portfolio/static/js/2.24b4c3cb.chunk.js",
@@ -10,11 +10,11 @@
     "index.html": "/Portfolio/index.html",
     "static/css/main.b12dfc8b.chunk.css.map": "/Portfolio/static/css/main.b12dfc8b.chunk.css.map",
     "static/js/2.24b4c3cb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.24b4c3cb.chunk.js.LICENSE.txt",
-    "static/media/BooksAPI.706a728e.webp": "/Portfolio/static/media/BooksAPI.706a728e.webp",
-    "static/media/MecatronicaFromScratch.00766842.webp": "/Portfolio/static/media/MecatronicaFromScratch.00766842.webp",
-    "static/media/NumericalMethods.c6f82d94.webp": "/Portfolio/static/media/NumericalMethods.c6f82d94.webp",
+    "static/media/BooksAPI.89ba391b.webp": "/Portfolio/static/media/BooksAPI.89ba391b.webp",
+    "static/media/MecatronicaFromScratch.7e54b5c1.webp": "/Portfolio/static/media/MecatronicaFromScratch.7e54b5c1.webp",
+    "static/media/NumericalMethods.60fd4ab2.webp": "/Portfolio/static/media/NumericalMethods.60fd4ab2.webp",
     "static/media/typography.scss": "/Portfolio/static/media/Poppins-Regular.6c52b9ac.woff",
-    "static/media/ScientificMolding.83699b6a.webp": "/Portfolio/static/media/ScientificMolding.83699b6a.webp",
+    "static/media/ScientificMolding.120a7a18.webp": "/Portfolio/static/media/ScientificMolding.120a7a18.webp",
     "static/media/angular.299e817a.svg": "/Portfolio/static/media/angular.299e817a.svg",
     "static/media/css3.87877734.svg": "/Portfolio/static/media/css3.87877734.svg",
     "static/media/description.7b3ec74c.webp": "/Portfolio/static/media/description.7b3ec74c.webp",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.eb6781d5.js",
     "static/js/2.24b4c3cb.chunk.js",
     "static/css/main.b12dfc8b.chunk.css",
-    "static/js/main.09ae6e31.chunk.js"
+    "static/js/main.33ba9ccf.chunk.js"
   ]
 }
