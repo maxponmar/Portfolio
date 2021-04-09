@@ -1,8 +1,8 @@
 .theme-toggler {
   position: fixed;
   z-index: 1000;
-  padding: 1rem 5rem;
-  margin-top: 0;
+  margin: 1rem 5rem;
+  cursor: pointer;
   &__icon {
     width: 35px;
   }

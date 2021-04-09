@@ -24,7 +24,7 @@ const setLightTheme = function () {
   root.style.setProperty("--color-white", "#eee");
   root.style.setProperty("--color-black", "#23120b");
   root.style.setProperty("--color-grey-light", "#e2e2e2");
-  root.style.setProperty("--color-icons", "#000");
+  root.style.setProperty("--color-icons", "#eee");
   moonIcon.classList.add("hidden");
   sunIcon.classList.remove("hidden");
 };
@@ -40,11 +40,13 @@ function ThemeToggler() {
         className="theme-toggler__icon sun "
         src={sun}
         onClick={setDarkTheme}
+        alt="sun"
       />
       <img
         className="theme-toggler__icon moon hidden"
         src={moon}
         onClick={setLightTheme}
+        alt="moon"
       />
     </div>
   );

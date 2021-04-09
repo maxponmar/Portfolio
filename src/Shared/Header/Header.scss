@@ -94,6 +94,11 @@
   }
 
   &__logo-link {
+    cursor: pointer;
+    background: none;
+	  border: none;
+	  padding: 0;
+	  outline: inherit;
     align-self: center;
     justify-self: center;
     color: var(--color-primary);
