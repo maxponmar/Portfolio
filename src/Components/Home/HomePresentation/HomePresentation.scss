@@ -1,4 +1,4 @@
-@import '/src/Sass/abstracts.scss';
+@import "/src/Sass/abstracts.scss";
 
 .home {
   &__presentation {
@@ -6,6 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include respond-min(1100px) {
+      margin-left: 2rem;
+    }
 
     &--title {
       font-size: 4rem;
