@@ -1,15 +1,11 @@
 @import '/src/Sass/abstracts.scss';
 
 .home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  transition: all 0.2s;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // flex-wrap: wrap;
   height: 75vh;
-  margin: auto;
-
-  @include respond-min(1100px) {
-    flex-direction: row;
-  }
+  transition: all 0.2s;
+  text-align: center;
 }
