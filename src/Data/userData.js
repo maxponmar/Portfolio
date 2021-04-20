@@ -42,25 +42,25 @@ export const frontendSkills = [
   { name: 'Javascript', icon: jsIcon, alt: 'JS', percentage: 95 },
   { name: 'Angular', icon: angularIcon, alt: 'Angular', percentage: 90 },
   { name: 'React', icon: reactIcon, alt: 'React', percentage: 90 },
-  { name: 'VueJS', icon: vueIcon, alt: 'VueJS', percentage: 70 }
+  { name: 'VueJS', icon: vueIcon, alt: 'VueJS', percentage: 60 }
 ]
 
 export const backendSkills = [
   { name: 'C#', icon: csharpIcon, alt: 'C#', percentage: 95 },
   { name: 'Python', icon: pythonIcon, alt: 'Python', percentage: 95 },
-  { name: 'Java', icon: javaIcon, alt: 'Java', percentage: 95 },
-  { name: 'PHP', icon: phpIcon, alt: 'PHP', percentage: 50 },
-  { name: 'NodeJS', icon: nodejsIcon, alt: 'NodeJS', percentage: 90 },
-  { name: '.Net Core', icon: microsoftIcon, alt: '.Net Core', percentage: 90 },
-  { name: 'Django', icon: djangoIcon, alt: 'Django', percentage: 80 },
-  { name: 'Laravel', icon: laravelIcon, alt: 'Laravel', percentage: 50 }
+  { name: 'Java', icon: javaIcon, alt: 'Java', percentage: 80 },
+  { name: 'PHP', icon: phpIcon, alt: 'PHP', percentage: 10 },
+  { name: 'NodeJS', icon: nodejsIcon, alt: 'NodeJS', percentage: 85 },
+  { name: '.Net Core', icon: microsoftIcon, alt: '.Net Core', percentage: 85 },
+  { name: 'Django', icon: djangoIcon, alt: 'Django', percentage: 40 },
+  { name: 'Laravel', icon: laravelIcon, alt: 'Laravel', percentage: 10 }
 ]
 
 export const databaseSkills = [
-  { name: 'SQL Server', icon: microsoftIcon, alt: 'SQL Server', percentage: 90 },
-  { name: 'MySQL', icon: mysqlIcon, alt: 'MySQL', percentage: 90 },
-  { name: 'PostgreSQL', icon: postgresqlIcon, alt: 'PostgreSQL', percentage: 90 },
-  { name: 'MongoDB', icon: mongodbIcon, alt: 'MongoDB', percentage: 90 },
+  { name: 'SQL Server', icon: microsoftIcon, alt: 'SQL Server', percentage: 85 },
+  { name: 'MySQL', icon: mysqlIcon, alt: 'MySQL', percentage: 80 },
+  { name: 'PostgreSQL', icon: postgresqlIcon, alt: 'PostgreSQL', percentage: 50 },
+  { name: 'MongoDB', icon: mongodbIcon, alt: 'MongoDB', percentage: 70 },
 ]
 
 export const projects = [
