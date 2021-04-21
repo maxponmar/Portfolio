@@ -49,11 +49,11 @@ export const backendSkills = [
   { name: 'C#', icon: csharpIcon, alt: 'C#', percentage: 95 },
   { name: 'Python', icon: pythonIcon, alt: 'Python', percentage: 95 },
   { name: 'Java', icon: javaIcon, alt: 'Java', percentage: 80 },
-  { name: 'PHP', icon: phpIcon, alt: 'PHP', percentage: 10 },
-  { name: 'NodeJS', icon: nodejsIcon, alt: 'NodeJS', percentage: 85 },
+  // { name: 'PHP', icon: phpIcon, alt: 'PHP', percentage: 10 },
   { name: '.Net Core', icon: microsoftIcon, alt: '.Net Core', percentage: 85 },
   { name: 'Django', icon: djangoIcon, alt: 'Django', percentage: 40 },
-  { name: 'Laravel', icon: laravelIcon, alt: 'Laravel', percentage: 10 }
+  { name: 'NodeJS', icon: nodejsIcon, alt: 'NodeJS', percentage: 85 },
+  // { name: 'Laravel', icon: laravelIcon, alt: 'Laravel', percentage: 10 }
 ]
 
 export const databaseSkills = [
