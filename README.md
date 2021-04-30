@@ -1,7 +1,7 @@
 # Portfolio
-https://maxponmar.github.io/Portfolio/
+https://www.maximilianoponce.live/
 
-##Preview Images:
+# Preview Images:
 
 ### Dark Theme
 <img src="https://github.com/maxponmar/Portfolio/blob/master/PreviewImages/DarkTheme.png?raw=true" alt="Dark Theme View" width="800"/>
