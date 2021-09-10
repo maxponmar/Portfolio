@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fa1febf.chunk.css",
-    "main.js": "/static/js/main.7e88874b.chunk.js",
-    "main.js.map": "/static/js/main.7e88874b.chunk.js.map",
+    "main.css": "/static/css/main.e6044dd5.chunk.css",
+    "main.js": "/static/js/main.5a114245.chunk.js",
+    "main.js.map": "/static/js/main.5a114245.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.24b4c3cb.chunk.js": "/static/js/2.24b4c3cb.chunk.js",
     "static/js/2.24b4c3cb.chunk.js.map": "/static/js/2.24b4c3cb.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5fa1febf.chunk.css.map": "/static/css/main.5fa1febf.chunk.css.map",
+    "static/css/main.e6044dd5.chunk.css.map": "/static/css/main.e6044dd5.chunk.css.map",
     "static/js/2.24b4c3cb.chunk.js.LICENSE.txt": "/static/js/2.24b4c3cb.chunk.js.LICENSE.txt",
     "static/media/BooksAPI.85b3a5bc.webp": "/static/media/BooksAPI.85b3a5bc.webp",
     "static/media/MecatronicaFromScratch.44dd1707.webp": "/static/media/MecatronicaFromScratch.44dd1707.webp",
@@ -16,33 +16,28 @@
     "static/media/typography.scss": "/static/media/Poppins-Regular.6c52b9ac.woff",
     "static/media/ScientificMolding.01a9a0f1.webp": "/static/media/ScientificMolding.01a9a0f1.webp",
     "static/media/angular.299e817a.svg": "/static/media/angular.299e817a.svg",
+    "static/media/HomeImage.scss": "/static/media/blob-profile.3c08d9d1.svg",
     "static/media/css3.87877734.svg": "/static/media/css3.87877734.svg",
     "static/media/description.7b3ec74c.webp": "/static/media/description.7b3ec74c.webp",
-    "static/media/django.b18d181c.svg": "/static/media/django.b18d181c.svg",
     "static/media/envelop.77e89fc7.svg": "/static/media/envelop.77e89fc7.svg",
     "static/media/github.a97474da.svg": "/static/media/github.a97474da.svg",
     "static/media/half-moon.4946e6c2.svg": "/static/media/half-moon.4946e6c2.svg",
     "static/media/html5.62320a76.svg": "/static/media/html5.62320a76.svg",
     "static/media/java.145e5764.svg": "/static/media/java.145e5764.svg",
     "static/media/javascript.f0490f94.svg": "/static/media/javascript.f0490f94.svg",
-    "static/media/laravel.c9908ede.svg": "/static/media/laravel.c9908ede.svg",
     "static/media/microsoft.e4b6be2c.svg": "/static/media/microsoft.e4b6be2c.svg",
-    "static/media/mongodb.daaa6303.svg": "/static/media/mongodb.daaa6303.svg",
     "static/media/mysql.c3213cf7.svg": "/static/media/mysql.c3213cf7.svg",
     "static/media/node-dot-js.187c948b.svg": "/static/media/node-dot-js.187c948b.svg",
-    "static/media/php.fb046a2a.svg": "/static/media/php.fb046a2a.svg",
-    "static/media/postgresql.74bdbade.svg": "/static/media/postgresql.74bdbade.svg",
     "static/media/profile.807bfbd6.webp": "/static/media/profile.807bfbd6.webp",
     "static/media/python.4da54d06.svg": "/static/media/python.4da54d06.svg",
     "static/media/react.2c3ab836.svg": "/static/media/react.2c3ab836.svg",
     "static/media/sunny.137e9c17.svg": "/static/media/sunny.137e9c17.svg",
-    "static/media/user.5438090f.svg": "/static/media/user.5438090f.svg",
-    "static/media/vue-dot-js.84b916a5.svg": "/static/media/vue-dot-js.84b916a5.svg"
+    "static/media/user.5438090f.svg": "/static/media/user.5438090f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.24b4c3cb.chunk.js",
-    "static/css/main.5fa1febf.chunk.css",
-    "static/js/main.7e88874b.chunk.js"
+    "static/css/main.e6044dd5.chunk.css",
+    "static/js/main.5a114245.chunk.js"
   ]
 }
