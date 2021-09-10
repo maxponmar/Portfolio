@@ -1,11 +1,13 @@
-@import '/src/Sass/abstracts.scss';
+@import "/src/Sass/abstracts.scss";
 
 .home {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // flex-wrap: wrap;
   height: 75vh;
   transition: all 0.2s;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include respond-max(1330px) {
+    display: inline-block;
+  }
 }

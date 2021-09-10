@@ -2,12 +2,15 @@
 
 .home {
   &__presentation {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     @include respond-min(1100px) {
       margin-left: 2rem;
+    }
+    @include respond-max(1330px) {
+      align-items: center;
     }
 
     &--title {

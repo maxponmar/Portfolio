@@ -1,11 +1,11 @@
-import './HomeImage.scss';
+import "./HomeImage.scss";
 
-const HomeImage = ({image, name}) => {
+const HomeImage = ({ image, name }) => {
   return (
     <div className="home__img">
-        <img src={image} alt={name} />
+      <img src={image} alt={name} />
     </div>
   );
-}
+};
 
 export default HomeImage;

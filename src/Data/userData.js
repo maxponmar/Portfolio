@@ -1,3 +1,4 @@
+import profileBlob from "../Assets/SVG/blob-profile.svg";
 import profileImg from "../Assets/Images/profile.webp";
 import aboutImg from "../Assets/Images/description.webp";
 
@@ -6,20 +7,20 @@ import cssIcon from "../Assets/SVG/css3.svg";
 import jsIcon from "../Assets/SVG/javascript.svg";
 import angularIcon from "../Assets/SVG/angular.svg";
 import reactIcon from "../Assets/SVG/react.svg";
-import vueIcon from "../Assets/SVG/vue-dot-js.svg";
+// import vueIcon from "../Assets/SVG/vue-dot-js.svg";
 
 import csharpIcon from "../Assets/SVG/css3.svg";
 import pythonIcon from "../Assets/SVG/python.svg";
 import javaIcon from "../Assets/SVG/java.svg";
-import phpIcon from "../Assets/SVG/php.svg";
+// import phpIcon from "../Assets/SVG/php.svg";
 import nodejsIcon from "../Assets/SVG/node-dot-js.svg";
 import microsoftIcon from "../Assets/SVG/microsoft.svg";
-import djangoIcon from "../Assets/SVG/django.svg";
-import laravelIcon from "../Assets/SVG/laravel.svg";
+// import djangoIcon from "../Assets/SVG/django.svg";
+// import laravelIcon from "../Assets/SVG/laravel.svg";
 
 import mysqlIcon from "../Assets/SVG/mysql.svg";
-import postgresqlIcon from "../Assets/SVG/postgresql.svg";
-import mongodbIcon from "../Assets/SVG/mongodb.svg";
+// import postgresqlIcon from "../Assets/SVG/postgresql.svg";
+// import mongodbIcon from "../Assets/SVG/mongodb.svg";
 
 import mecatronicaImg from "../Assets/Images/MecatronicaFromScratch.webp";
 import numericalMethodsImg from "../Assets/Images/NumericalMethods.webp";
