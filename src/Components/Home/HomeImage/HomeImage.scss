@@ -14,14 +14,16 @@
   }
   background-image: url("../../../Assets/SVG/blob-profile.svg");
   background-repeat: no-repeat;
-  background-position: calc(100% - 600px) calc(100% - 100px);
+  background-position: calc(100% - 580px) calc(100% - 70px);
   @include respond-max(1330px) {
     text-align: center;
-    background-position: center -110px;
+    background-position: center -90px;
+    background-size: 85vh;
   }
   @include respond-max(740px) {
     // background-size: cover;
-    background-position: center top -160px;
+    background-position: center top -90px;
+    background-size: 80vh;
   }
 }
 
