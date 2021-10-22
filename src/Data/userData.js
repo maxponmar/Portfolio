@@ -30,7 +30,7 @@ import booksApiImg from "../Assets/Images/BooksAPI.webp";
 export const profile = {
   name: "Maximiliano Ponce Marquez",
   description: "Mechatronics Engineer & Web Developer",
-  email: "maxponce.marquez@gmail.com",
+  email: "maxponce.marquez@outlook.com",
   image: profileImg,
   aboutMe:
     "I am a mechatronics engineer student from Tecnológico Nacional de México - Instituto Tecnológico de Nogales. I love programming, reading and videogames.",
